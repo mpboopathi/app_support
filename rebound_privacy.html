@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rebound – Privacy Policy</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --fg2: #555;
+      --fg3: #888;
+      --accent: #4f46e5;
+      --accent-light: #eef2ff;
+      --border: #e5e7eb;
+      --card: #f9fafb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --fg: #f9fafb;
+        --fg2: #9ca3af;
+        --fg3: #6b7280;
+        --accent: #818cf8;
+        --accent-light: #1e1b4b;
+        --border: #374151;
+        --card: #1f2937;
+        color-scheme: dark;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.7;
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      text-align: center;
+      padding: 48px 24px 40px;
+    }
+    .logo { font-size: 48px; margin-bottom: 8px; }
+    header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; }
+    header p { margin-top: 8px; font-size: 15px; opacity: 0.85; }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    .effective {
+      font-size: 13px;
+      color: var(--fg3);
+      margin-bottom: 32px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin: 32px 0 10px;
+      color: var(--fg);
+    }
+    h2:first-of-type { margin-top: 0; }
+    p { font-size: 15px; color: var(--fg2); margin-bottom: 12px; }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+    li { font-size: 15px; color: var(--fg2); margin-bottom: 6px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 28px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: var(--fg3);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--fg3); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🔒</div>
+  <h1>Privacy Policy</h1>
+  <p>Rebound: AI Job Search &amp; Career Coach</p>
+</header>
+
+<main>
+  <p class="effective">Effective date: September 29, 2026</p>
+
+  <h2>Overview</h2>
+  <p>Rebound ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy describes how we collect, use, and protect your personal information when you use the Rebound app ("the App").</p>
+  <p>By using Rebound, you agree to the practices described in this policy.</p>
+
+  <hr class="divider">
+
+  <h2>Information We Collect</h2>
+  <p>We collect only what is necessary to provide the App's features:</p>
+  <ul>
+    <li><strong>Account information</strong> — your email address, used to create and authenticate your account.</li>
+    <li><strong>Resume content</strong> — text or PDF you upload for AI analysis. This is stored securely and associated with your account.</li>
+    <li><strong>Job application data</strong> — companies, job titles, application status, and notes you enter in the tracker.</li>
+    <li><strong>Usage data</strong> — anonymous analytics about how features are used, to improve the App. This does not include your resume or job content.</li>
+  </ul>
+
+  <hr class="divider">
+
+  <h2>How We Use Your Information</h2>
+  <ul>
+    <li>To provide AI-powered resume analysis, job search, and interview coaching features.</li>
+    <li>To authenticate you and keep your data synced across your devices.</li>
+    <li>To send optional in-app notifications (e.g., daily check-in reminders). You can disable these in Settings.</li>
+    <li>To improve the App based on aggregate, anonymous usage patterns.</li>
+  </ul>
+  <p>We do <strong>not</strong> use your resume or job data to train AI models.</p>
+
+  <hr class="divider">
+
+  <h2>How We Share Your Information</h2>
+  <p>We do not sell, rent, or share your personal information with third parties for marketing purposes. We share data only in limited circumstances:</p>
+  <ul>
+    <li><strong>AI processing</strong> — your resume text is sent to Anthropic's API (claude.ai) to generate analysis and coaching feedback. Anthropic's <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener">privacy policy</a> governs their handling of this data.</li>
+    <li><strong>Infrastructure</strong> — your data is stored in Supabase, a secure cloud database provider. Supabase's <a href="https://supabase.com/privacy" target="_blank" rel="noopener">privacy policy</a> applies.</li>
+    <li><strong>Legal requirements</strong> — we may disclose information if required by law or to protect our rights.</li>
+  </ul>
+
+  <hr class="divider">
+
+  <h2>Data Storage and Security</h2>
+  <p>Your data is stored in a secure, encrypted database (Supabase/PostgreSQL). Access is restricted through row-level security — you can only access your own data. Connections are encrypted with TLS.</p>
+  <p>We retain your data as long as your account is active. You may request deletion at any time (see "Your Rights" below).</p>
+
+  <hr class="divider">
+
+  <h2>Your Rights</h2>
+  <p>You have the right to:</p>
+  <ul>
+    <li><strong>Access</strong> — request a copy of the personal data we hold about you.</li>
+    <li><strong>Correction</strong> — update or correct your information within the App or by contacting us.</li>
+    <li><strong>Deletion</strong> — request that we delete your account and all associated data.</li>
+    <li><strong>Portability</strong> — request your data in a portable format.</li>
+  </ul>
+  <p>To exercise any of these rights, email us at <a href="mailto:mpboopathi@gmail.com">mpboopathi@gmail.com</a>.</p>
+
+  <hr class="divider">
+
+  <h2>Children's Privacy</h2>
+  <p>Rebound is not intended for children under 13. We do not knowingly collect personal information from anyone under 13. If you believe a child has provided us with their information, please contact us and we will delete it promptly.</p>
+
+  <hr class="divider">
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. If we make material changes, we will notify you in the App or by updating the effective date above. Continued use of the App after changes constitutes your acceptance of the updated policy.</p>
+
+  <hr class="divider">
+
+  <h2>Contact Us</h2>
+  <p>If you have questions or concerns about this Privacy Policy, please contact us:</p>
+  <p>
+    <strong>Rebound</strong><br>
+    Email: <a href="mailto:mpboopathi@gmail.com">mpboopathi@gmail.com</a><br>
+    Support: <a href="support.html">support page</a>
+  </p>
+</main>
+
+<footer>
+  <p>&copy; 2026 Rebound. &nbsp;·&nbsp; <a href="support.html">Support</a></p>
+</footer>
+
+</body>
+</html>
