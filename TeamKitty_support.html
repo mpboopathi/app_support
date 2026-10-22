@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TeamKitty – Support</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --fg2: #555;
+      --fg3: #888;
+      --accent: #7c3aed;
+      --accent-light: #ede9fe;
+      --border: #e5e7eb;
+      --card: #f9fafb;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --fg: #f9fafb;
+        --fg2: #9ca3af;
+        --fg3: #6b7280;
+        --accent: #a78bfa;
+        --accent-light: #2e1065;
+        --border: #374151;
+        --card: #1f2937;
+        color-scheme: dark;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--fg);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: var(--accent);
+      color: #fff;
+      text-align: center;
+      padding: 48px 24px 40px;
+    }
+    .logo {
+      font-size: 48px;
+      margin-bottom: 8px;
+    }
+    header h1 {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 16px;
+      opacity: 0.85;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 12px;
+      color: var(--fg);
+    }
+    p, li {
+      font-size: 15px;
+      color: var(--fg2);
+      margin-bottom: 12px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+    li { margin-bottom: 6px; }
+    .section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    .icon {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--accent-light);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 999px;
+      margin-bottom: 16px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+      color: var(--fg3);
+      border-top: 1px solid var(--border);
+    }
+    footer a { color: var(--fg3); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">🏆</div>
+  <h1>TeamKitty Support</h1>
+  <p>Team Finances &amp; Scheduling</p>
+</header>
+
+<main>
+  <div style="text-align:center; margin-bottom:32px;">
+    <span class="badge">We're here to help</span>
+  </div>
+
+  <div class="section">
+    <div class="icon">✉️</div>
+    <h2>Contact Us</h2>
+    <p>Have a question, found a bug, or need help with the app? We'd love to hear from you.</p>
+    <p>Email us at: <a href="mailto:mpboopathi@gmail.com">mpboopathi@gmail.com</a></p>
+    <p style="font-size:13px; color:var(--fg3);">We typically respond within 1–2 business days.</p>
+  </div>
+
+  <div class="section">
+    <div class="icon">📱</div>
+    <h2>About TeamKitty</h2>
+    <p>TeamKitty is a team-finances and scheduling app for small sports club teams — built to replace the group-chat spreadsheet with one shared, always-up-to-date source of truth.</p>
+    <p>Key features:</p>
+    <ul>
+      <li><strong>Shared ledger</strong> — members submit expenses and payments; officers review and acknowledge them, so the team fund balance is always accurate and auditable.</li>
+      <li><strong>Season tracking</strong> — registration fees, league fees, and per-game costs rolled up into one season summary.</li>
+      <li><strong>Game attendance</strong> — track who played each game and tie it back to registration-fee return calculations.</li>
+      <li><strong>Practice sessions</strong> — book a practice, split the court cost evenly, and settle up with a simple claim/confirm flow.</li>
+      <li><strong>Roster &amp; officers</strong> — manage who's on the team and who holds treasurer/captain/board roles.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <div class="icon">🔒</div>
+    <h2>Your Data</h2>
+    <p>Your team's financial and scheduling data is stored securely and is never shared or sold to third parties. Read our full <a href="TeamKitty_Privacy.html">Privacy Policy</a> for details.</p>
+  </div>
+
+  <div class="section">
+    <div class="icon">❓</div>
+    <h2>Frequently Asked Questions</h2>
+    <p><strong>Is TeamKitty free?</strong><br>Yes — TeamKitty is free to download and use.</p>
+    <p><strong>What do I need to get started?</strong><br>Create an account with your email address, then either create a new team or join one with a team's invite code.</p>
+    <p><strong>Does TeamKitty handle real payments?</strong><br>No. TeamKitty is a record-keeping tool only — money changes hands outside the app (Venmo, cash, etc.) and you log it afterward so everyone can see the team fund balance.</p>
+    <p><strong>Who can see our team's data?</strong><br>Only members of your own team. Every team's roster, ledger, and practice data is kept fully separate from every other team on TeamKitty.</p>
+    <p><strong>How do I delete my account?</strong><br>See the in-app account deletion flow, or visit <a href="https://teamkitty.netlify.app/delete-account.html">this page</a>.</p>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2026 TeamKitty. &nbsp;·&nbsp; <a href="TeamKitty_Privacy.html">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
